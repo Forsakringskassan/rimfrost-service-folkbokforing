@@ -2,6 +2,14 @@
 
 Changelog of rimfrost-service-folkbokforing.
 
+## 0.2.3 (2025-12-18)
+
+### Bug Fixes
+
+-  returnera 404 om persnr slutar på 9999 ([2ef88](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/2ef882b3bd75d9d) Ulf Slunga)  
+-  test ([f9e18](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/f9e189b3c586b6c) Nils Elveros)  
+-  add dummy data to response ([95f08](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/95f0865562ba271) Nils Elveros)  
+
 ## 0.2.2 (2025-11-10)
 
 ### Bug Fixes
