@@ -1,9 +1,11 @@
 package se.fk.github.rimfrost.folkbokford;
 
 import static org.assertj.core.api.Assertions.assertThat;
+
 import org.junit.jupiter.api.Test;
 
 import io.quarkus.test.junit.QuarkusTest;
+
 import static io.restassured.RestAssured.given;
 
 @QuarkusTest
@@ -33,7 +35,16 @@ class FolkbokforingTest
                 "postort": "Luleå"
               }
             }
-                        """);
+            """);
+   }
+
+   @Test
+   void testFolkbokforingReturns404WhenPersnrEndsWith9999()
+   {
+      given()
+            .when().get("/folkbokforing/19900716-9999")
+            .then()
+            .statusCode(404);
    }
 
 }

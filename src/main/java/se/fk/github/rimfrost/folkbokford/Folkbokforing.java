@@ -2,6 +2,7 @@ package se.fk.github.rimfrost.folkbokford;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.validation.constraints.Pattern;
+import jakarta.ws.rs.NotFoundException;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 import se.fk.rimfrost.api.folkbokforing.jaxrsspec.controllers.generatedsource.FolkbokforingControllerApi;
@@ -23,6 +24,11 @@ public class Folkbokforing implements FolkbokforingControllerApi
          @PathParam("persnr") @Pattern(regexp = "^\\d{8}-\\d{4}$") String personnummer)
    {
       log.info("Folkbokforing received request: personnummer={}", personnummer);
+      if (personnummer.endsWith("9999"))
+      {
+         log.warn("Personnummer not found: {}", personnummer);
+         throw new NotFoundException("Person not found");
+      }
       var response = new FolkbokforingPersnrGet200Response();
 
       response.setId(personnummer);
