@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-service-folkbokforing.
 
+## 0.2.5 (2026-03-03)
+
+### Bug Fixes
+
+-  Bump to trigger release flow ([cba2a](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/cba2a8aa8bb1b45) Lars Persson)  
+
 ## 0.2.4 (2026-01-15)
 
 ### Bug Fixes
