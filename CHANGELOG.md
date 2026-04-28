@@ -2,6 +2,16 @@
 
 Changelog of rimfrost-service-folkbokforing.
 
+## 1.0.0 (2026-04-28)
+
+### Breaking changes
+
+-  release 1.0 ([f5376](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/f5376bd75a4190d) Nils Elveros)  
+
+### Features
+
+-  release 1.0 ([f5376](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/f5376bd75a4190d) Nils Elveros)  
+
 ## 0.2.5 (2026-03-03)
 
 ### Bug Fixes
