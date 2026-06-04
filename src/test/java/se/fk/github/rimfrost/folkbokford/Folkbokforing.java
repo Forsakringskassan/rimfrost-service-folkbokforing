@@ -15,7 +15,7 @@ class FolkbokforingTest
    void testFolkbokforing()
    {
       String actualResponse = given()
-            .when().get("/folkbokforing/19900716-1234")
+            .when().get("/folkbokforing/19900101-1234")
             .then()
             .statusCode(200)
             .extract()
@@ -24,7 +24,7 @@ class FolkbokforingTest
 
       assertThat(actualResponse).isEqualToIgnoringWhitespace("""
                         {
-              "id": "19900716-1234",
+              "id": "19900101-1234",
               "fornamn": "Lisa",
               "efternamn": "Tass",
               "kon": "K",
@@ -42,7 +42,7 @@ class FolkbokforingTest
    void testFolkbokforingReturns404WhenPersnrEndsWith9999()
    {
       given()
-            .when().get("/folkbokforing/19900716-9999")
+            .when().get("/folkbokforing/19900101-9999")
             .then()
             .statusCode(404);
    }
