@@ -14,7 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @ApplicationScoped
-@Path("/folkbokforing/{persnr}")
+@Path("/")
 public class Folkbokforing implements FolkbokforingControllerApi
 {
    private static final Logger log = LoggerFactory.getLogger(Folkbokforing.class);
