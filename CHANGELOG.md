@@ -2,7 +2,15 @@
 
 Changelog of rimfrost-service-folkbokforing.
 
-## 1.0.1 (2026-06-04)
+## 1.1.1 (2026-06-04)
+
+### Bug Fixes
+
+-  **deps**  update dependency se.fk.maven:fk-maven-quarkus-parent to v1.12.0 (#20) ([2528b](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/2528b759e765b79) renovate[bot])  
+
+## rimfrost-1.1 (2026-06-04)
+
+## 1.1.0 (2026-06-04)
 
 ### Bug Fixes
 
