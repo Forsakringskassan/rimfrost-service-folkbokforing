@@ -2,6 +2,17 @@
 
 Changelog of rimfrost-service-folkbokforing.
 
+## 1.1.2 (2026-09-22)
+
+### Bug Fixes
+
+-  **deps**  update dependency se.fk.rimfrost.api.folkbokforing:rimfrost-folkbokforing-api-jaxrs-spec to v2.0.2 ([1e736](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/1e736a57a2c841c) renovate[bot])  
+
+### Dependency updates
+
+- update forsakringskassan/.github digest to bfb01f7 ([c445b](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/c445bd959601f60) renovate[bot])  
+- update forsakringskassan/.github digest to d1349e6 ([f8497](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/f84978ad781c905) renovate[bot])  
+- pin forsakringskassan/.github action to 3d07e55 ([4fe93](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/4fe93a91c0a5807) renovate[bot])  
 ## 1.1.1 (2026-06-04)
 
 ### Bug Fixes
