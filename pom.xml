@@ -9,7 +9,7 @@
   </parent>
 
   <groupId>fk.rimfrost</groupId>
-  <artifactId>folkbokford</artifactId>
+  <artifactId>rimfrost-service-folkbokforing</artifactId>
   <version>0.1.0</version>
 
   <properties>
