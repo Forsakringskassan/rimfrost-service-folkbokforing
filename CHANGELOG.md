@@ -2,6 +2,17 @@
 
 Changelog of rimfrost-service-folkbokforing.
 
+## 1.1.4 (2026-11-27)
+
+### Bug Fixes
+
+-  update image name to rimfrost-service-folkbokforing ([9a059](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/9a05901e0d1dd01) Nils Elveros)  
+
+### Dependency updates
+
+- update forsakringskassan/.github digest to 1c8b290 ([ad992](https://github.com/Forsakringskassan/rimfrost-service-folkbokforing/commit/ad992c74af304a7) renovate[bot])  
+## rimfrost-1_3 (2026-11-19)
+
 ## 1.1.3 (2026-11-06)
 
 ### Bug Fixes
